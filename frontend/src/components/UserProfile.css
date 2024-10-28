@@ -1,0 +1,9 @@
+.trade-link {
+    color: #0056b3; /* Match button color for consistency */
+    text-decoration: none; /* Optional, removes underline from links */
+    margin-top: 10px; /* Space from the button or other elements */
+}
+
+.trade-link:hover {
+    color: #007bff; /* Color changes on hover to match the button hover */
+}

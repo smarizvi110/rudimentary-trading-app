@@ -1,0 +1,46 @@
+.navbar {
+    background-color: #007bff;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    line-height: 1.5; /* Ensure line height is enough to vertically center the text */
+}
+
+.logo-link {
+    display: inline-block; /* Keeps the link block inline */
+    width: 3.1%; /* Maintaining the original width setting for the image */
+    margin-right: 10px; /* Adjust according to your layout */
+  }
+  
+  .logo-link img {
+    width: 100%; /* Ensures the image fills the anchor tag */
+    height: auto; /* Maintains aspect ratio */
+  }
+
+.nav-link:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+.logout-button {
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: auto;
+    max-width: 80px;
+}
+
+.logout-button:hover {
+    background-color: #0056b3;
+}

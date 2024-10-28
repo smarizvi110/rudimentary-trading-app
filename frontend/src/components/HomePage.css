@@ -1,0 +1,17 @@
+.homepage-logo-container {
+    width: 30%; /* Control the width of the image */
+    margin: 0 auto; /* Center the container horizontally */
+    display: block;
+  }
+  
+  .homepage-logo-link {
+    display: block; /* Ensures the link fills its container */
+    width: 100%; /* Anchor tag takes full width of its container */
+    height: auto;
+  }
+  
+  .homepage-logo-link img {
+    width: 100%; /* Image fills the anchor tag width */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
